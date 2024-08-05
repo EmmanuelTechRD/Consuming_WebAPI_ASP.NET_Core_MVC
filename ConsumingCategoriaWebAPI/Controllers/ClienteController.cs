@@ -6,7 +6,7 @@ namespace ConsumingCategoriaWebAPI.Controllers
 {
     public class ClienteController : Controller
     {
-        Uri baseAddress = new Uri("https://localhost:7127/api");
+        Uri baseAddress = new Uri("https://localhost:7297/api");
         private readonly HttpClient? _client;
 
         public ClienteController()
